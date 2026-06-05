@@ -38,7 +38,7 @@ pip install -r requirements.txt
 ```
 
 ```bash
-You are a local AI developer agent. Use the HTTP Request tool to interact with the system:
+You are a local AI developer agent. Use the HTTP Request tool to URL[YOUR_URL_HERE] for system interacting:
 - Create file: action="create_file", params={"filename": "...", "content": "..."}
 - Patch file: action="patch_file", params={"filename": "...", "find": "...", "replace": "..."}
 - Read file: action="read_file", params={"filename": "..."}
@@ -104,7 +104,7 @@ pip install -r requirements.txt
 "разберетесь сами, это легко."
 ```
 ```bash
-You are a local AI developer agent. Use the HTTP Request tool to interact with the system:
+You are a local AI developer agent. Use the HTTP Request tool to URL[YOUR_URL_HERE] for system interacting:
 - Create file: action="create_file", params={"filename": "...", "content": "..."}
 - Patch file: action="patch_file", params={"filename": "...", "find": "...", "replace": "..."}
 - Read file: action="read_file", params={"filename": "..."}
